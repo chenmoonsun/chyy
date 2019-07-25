@@ -108,7 +108,7 @@
                 <article class="post">
                     <div class="post-head">
                         <h1 class="post-title"><a href="{{ url('article/'.$article->id) }}">{{$article->title}}</a></h1>
-                        <div class="post-meta"><span class="author">作者：<a href="https://www.bootcss.com/" target="_blank">陈月阳</a></span> • <time class="post-date" datetime="February 8, 2018 2:33 AM" title="February 8, 2018 2:33 AM">{{date('Y年m月d日',strtotime($article->updated_at))}}</time></div>
+                        <div class="post-meta"><span class="author">作者：<a href="https://www.chenyueyang.com.cn/" target="_blank">陈月阳</a></span> • <time class="post-date" datetime="" title="">{{date('Y年m月d日',strtotime($article->updated_at))}}</time></div>
                     </div>
                     {{--<div class="featured-media">
                         <a href="/post/laravel-5-6-is-now-released/"><img src="/assets/images/laravel-5.6.png" alt="Laravel 5.6 版本正式发布"></a>
@@ -141,7 +141,7 @@
                 <div class="widget">
                     <h4 class="title">推荐Bolg</h4>
                     <div class="content community">
-                        <p><a href="https://ninghao.net/" title="宁浩的博客" target="_blank" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '宁浩的博客'])"><i class="fa fa-comments"></i> 宁浩的博客</a></p>
+                        <p><a href="https://ninghao.net/" title="宁皓的博客" target="_blank" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '宁浩的博客'])"><i class="fa fa-comments"></i> 宁浩的博客</a></p>
                         <p><a href="http://www.laruence.com/" title="Laruence的博客" target="_blank" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '风雪之隅'])"><i class="fa fa-comments"></i> 风雪之隅</a></p>
                         <p><a href="http://rango.swoole.com/" title="韩天峰(Rango)的博客" target="_blank" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '韩天峰(Rango)的博客'])"><i class="fa fa-comments"></i> 韩天峰(Rango)的博客</a></p>
                     </div>

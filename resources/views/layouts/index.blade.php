@@ -40,8 +40,8 @@
                     <li><a href="">REDIS</a></li>
                     <li><a href="">LINUX</a></li>
                     <li><a href="">PYTHON</a></li>
-                    <li><a href="">百度AI</a></li>
-                    <li><a href="">树莓派</a></li>
+                    {{--<li><a href="">百度AI</a></li>
+                    <li><a href="">树莓派</a></li>--}}
                 </ul>
 
                 <!-- Right Side Of Navbar -->
